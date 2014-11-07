@@ -40,7 +40,7 @@ angular.module('ngFinder', [])
                         files  : menus.files.split(',')
                     },
 //                    url : attrs.url || '/elfinder',
-                    utl : 'http://elfinder.org/connector',
+                    url : 'http://elfinder.org/connector',
                     commandsOptions : {
                         getfile: {
                             onlyURL: false
